@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker by Shouvik Baidya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Personal Expense Tracker</h1>
+    <form id="expense-form">
+        <label for="description">Description:</label>
+        <input type="text" id="description" required>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" required>
+        <button type="submit">Add Expense</button>
+    </form>
+    <h2>Expenses</h2>
+    <ul id="expense-list"></ul>
+    <p>Total: ₹<span id="total-amount">0.00</span></p>
+    <footer>
+        <p>Created by Shouvik Baidya</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
